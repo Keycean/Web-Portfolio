@@ -19,8 +19,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+            <head>
+        {/* Swiper CSS */}
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/swiper/swiper-bundle.min.css"
+        />
+        {/* Swiper JS */}
+        <script
+          src="https://unpkg.com/swiper/swiper-bundle.min.js"
+          defer
+        ></script>
+      </head>
+
       <body
-        className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}
+        className={`${inter.className} bg-[#000000] overflow-y-scroll overflow-x-hidden`}
       >
         <StarsCanvas />
         <Navbar />

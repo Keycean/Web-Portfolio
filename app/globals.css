@@ -69,3 +69,48 @@
 html {
   scroll-behavior: smooth;
 }
+.swiper {
+  width: 100%;
+  height: 100%;
+  color: orange;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  background:linear-gradient(140deg, red,orange);
+
+  /* Center slide content */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.project-card {
+  width: 300px;
+  text-align: center;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-card h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.project-card p {
+  font-size: 14px;
+  color: #555;
+}
+.swiper-button-next, .swiper-button-prev {
+  color: red; /* Set the arrow color to red */
+}

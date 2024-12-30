@@ -1,92 +1,70 @@
-import {
-  Backend_skill,
-  Frontend_skill,
-  Full_stack,
-  Other_skill,
-  Skill_data,
-} from "@/constants";
 import React from "react";
-import SkillDataProvider from "../sub/SkillDataProvider";
-import SkillText from "../sub/SkillText";
 
 const Skills = () => {
+  const allSkills = [
+    "HTML",
+    "CSS",
+    "PHP",
+    "Laravel",
+    "JavaScript",
+    "React",
+    "Typescript",
+    "Next",
+    "Tailwind",
+    "FramerMotion",
+    "Node",
+    "Express",
+    "MySQL",
+    "Postgres",
+    "Firebase",
+    "MongoDB",
+    "Stripe",
+    "Paypal",
+    "TypeScript",
+    "Python",
+    "Git",
+    "Linux",
+    "WordPress",
+    "Shadcn",
+    "MaterialUI",
+    "Chakra",
+    "Redux",
+    "Figma",
+  ];
+
   return (
     <section
       id="skills"
-      className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-80 py-20"
-      style={{ transform: "scale(0.9" }}
+      className="relative flex flex-col items-center justify-center gap-10 py-20 bg-transparent text-white overflow-hidden"
     >
-      <SkillText />
+      <h2 className="text-5xl font-bold mb-8">Skills</h2>
 
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Skill_data.map((image, index) => (
-          <SkillDataProvider
+      <div className="bg-transparent text-white py-5 px-8 rounded shadow-lg grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-5 justify-center">
+        {allSkills.map((skill, index) => (
+          <div
             key={index}
-            src={image.Image}
-            width={image.width}
-            height={image.height}
-            index={index}
-          />
-        ))}
-      </div>
-
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Frontend_skill.map((image, index) => (
-          <SkillDataProvider
-            key={index}
-            src={image.Image}
-            width={image.width}
-            height={image.height}
-            index={index}
-          />
-        ))}
-      </div>
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Backend_skill.map((image, index) => (
-          <SkillDataProvider
-            key={index}
-            src={image.Image}
-            width={image.width}
-            height={image.height}
-            index={index}
-          />
-        ))}
-      </div>
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Full_stack.map((image, index) => (
-          <SkillDataProvider
-            key={index}
-            src={image.Image}
-            width={image.width}
-            height={image.height}
-            index={index}
-          />
-        ))}
-      </div>
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Other_skill.map((image, index) => (
-          <SkillDataProvider
-            key={index}
-            src={image.Image}
-            width={image.width}
-            height={image.height}
-            index={index}
-          />
+            className="flex flex-col items-center bg-transparent text-white py-2 px-2 rounded text-sm shadow-sm"
+          >
+            <img
+              src={`/icons/${skill.toLowerCase().replace(/\s+/g, "-")}.png`}
+              alt={skill}
+              className="w-16 h-16 sm:w-20 sm:h-20"
+            />
+            <span className="mt-2 text-center text-xs sm:text-sm">{skill}</span>
+          </div>
         ))}
       </div>
 
-      <div className="w-full h-full absolute">
-        <div className="w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover">
-          <video
-            className="w-full h-auto"
-            preload="false"
-            playsInline
-            loop
-            muted
-            autoPlay
-            src="/cards-video.webm"
-          />
-        </div>
+      <div className="absolute inset-0 z-[-10] opacity-30 bg-transparent">
+        <video
+          className="w-full h-full object-cover"
+          preload="false"
+          playsInline
+          loop
+          muted
+          autoPlay
+          src="/redhole1.webm"
+        />
       </div>
     </section>
   );
