@@ -4,8 +4,6 @@ import "./globals.css";
 import StarsCanvas from "@/components/main/StarBackground";
 import Navbar from "@/components/main/Navbar";
 import Footer from "@/components/main/Footer";
-// pages/_document.js
-import { Html, Head, Main, NextScript } from "next/document";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-            <head>
+      <head>
         {/* Swiper CSS */}
         <link
           rel="stylesheet"
@@ -33,7 +31,6 @@ export default function RootLayout({
           defer
         ></script>
       </head>
-
       <body
         className={`${inter.className} bg-[#000000] overflow-y-scroll overflow-x-hidden`}
       >
