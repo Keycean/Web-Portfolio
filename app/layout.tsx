@@ -6,7 +6,7 @@ import Navbar from "@/components/main/Navbar";
 import Footer from "@/components/main/Footer";
 
 export const metadata: Metadata = {
-  title: "Space Portfolio",
+  title: "Keycean Señeres",
   description: "This is my portfolio",
 };
 
