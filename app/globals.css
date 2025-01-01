@@ -3,18 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "Geist";
-  src: url("/fonts/Geist-Regular.woff2") format("woff2"),
-       url("/fonts/Geist-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-body {
-  font-family: "Geist", sans-serif;
-}
-
 .cursive {
   font-family: "Cedarville Cursive", cursive;
 }
