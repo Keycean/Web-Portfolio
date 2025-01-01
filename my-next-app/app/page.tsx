@@ -1,5 +1,4 @@
 import Hero from "@/components/main/Hero";
-import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
 import About from "@/components/main/About";
 import Contact from "@/components/main/Contact"; // This is used in the Home layout
@@ -12,7 +11,6 @@ export default function Home() {
         <Hero />
         <About/>
         <Skills/>
-        <Projects />
         <Contact />
       </div>
     </main>
