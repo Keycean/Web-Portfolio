@@ -92,7 +92,7 @@ const Contact = () => {
               <span className="text-[15px] ml-[6px]">Learning about me</span>
             </a> */}
             <a
-              href="mailto:keycean.dev@gmail.com
+              href="mailto:keycean.dev@gmail.com"
               className="flex flex-row items-center my-[15px] cursor-pointer"
             >
               <span className="text-[15px] ml-[6px]">keycean.dev@gmail.com</span>
