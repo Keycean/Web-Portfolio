@@ -28,7 +28,7 @@ const Contact = () => {
                 <HiOutlineMail size={28} className="text-purple-500" />
                 <div>
                   <h3 className="text-lg font-semibold">Email:</h3>
-                  <p className="text-gray-400">keyceanseneres@gmail.com</p>
+                  <p className="text-gray-400">keycean.dev@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -79,7 +79,7 @@ const Contact = () => {
           {/* About Section */}
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">About</div>
-            <a
+{/*             <a
               href="#sponsor"
               className="flex flex-row items-center my-[15px] cursor-pointer"
             >
@@ -90,12 +90,12 @@ const Contact = () => {
               className="flex flex-row items-center my-[15px] cursor-pointer"
             >
               <span className="text-[15px] ml-[6px]">Learning about me</span>
-            </a>
+            </a> */}
             <a
-              href="mailto:senereskeyceanklyk@gmail.com"
+              href="mailto:keycean.dev@gmail.com
               className="flex flex-row items-center my-[15px] cursor-pointer"
             >
-              <span className="text-[15px] ml-[6px]">senereskeyceanklyk@gmail.com</span>
+              <span className="text-[15px] ml-[6px]">keycean.dev@gmail.com</span>
             </a>
           </div>
         </div>
