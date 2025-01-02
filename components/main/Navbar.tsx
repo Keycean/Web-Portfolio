@@ -31,7 +31,7 @@ const Navbar = () => {
             Contact
           </a>
      <a
-  href="/public/resume.pdf" // Update with your PDF file path
+  href="/public/RESUME.pdf" // Update with your PDF file path
   target="_blank"
   rel="noopener noreferrer"
   className="py-1 px-6 rounded-lg bg-[#8B0000] text-white font-medium transition-transform duration-300 transform hover:scale-105"
