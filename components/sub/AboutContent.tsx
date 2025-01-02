@@ -54,10 +54,7 @@ const AboutContent = () => {
       <div>
         <h1 className="text-4xl font-bold mt-2 mb-4">About Me</h1>
         <p className="max-w-2xl text-base md:text-lg leading-7">
-          Passionate and forward-thinking web developer dedicated to staying at the forefront
-          of technology trends. Committed to continuous learning, eagerly exploring new
-          frameworks, libraries, and tools to enhance my skill set and deliver innovative
-          solutions.
+         An enthusiastic and progressive web developer committed to staying on top of technological developments. To address challenges creatively and provide original, significant solutions, I actively study new frameworks, libraries, and tools as part of my commitment to lifelong learning.
         </p>
       </div>
 
