@@ -34,7 +34,7 @@ const Contact = () => {
               <div className="flex items-center gap-4">
                 <HiOutlinePhone size={28} className="text-purple-500" />
                 <div>
-                  <h3 className="text-lg font-semibold">Phone:</h3>
+                  <h3 className="text-lg font-semibold">Phone:09283425027</h3>
                   <p className="text-gray-400"></p>
                 </div>
               </div>
