@@ -28,12 +28,6 @@ const Navbar = () => {
             href="#projects"
             className="text-gray-500 hover:text-[#FFFF] transition duration-300"
           >
-            Projects
-          </a>
-          <a
-            href="#contact"
-            className="text-gray-500 hover:text-[#FFFF] transition duration-300"
-          >
             Contact
           </a>
           <a href="#resume" className="py-1 px-6 rounded-lg bg-[#8B0000] text-white font-medium transition-transform duration-300 transform hover:scale-105" 
