@@ -30,8 +30,19 @@ const Navbar = () => {
           >
             Contact
           </a>
-          <a href="#resume" className="py-1 px-6 rounded-lg bg-[#8B0000] text-white font-medium transition-transform duration-300 transform hover:scale-105" 
-          style={{ boxShadow: "0px 2px 2px 2px rgb(139, 0, 0), 0px 0px 20px 4px rgb(255, 69, 0), 0px 0px 40px 6px rgb(255, 99, 71)", }} > Résumé </a>
+     <a
+  href="/public/resume.pdf" // Update with your PDF file path
+  target="_blank"
+  rel="noopener noreferrer"
+  className="py-1 px-6 rounded-lg bg-[#8B0000] text-white font-medium transition-transform duration-300 transform hover:scale-105"
+  style={{
+    boxShadow:
+      "0px 2px 2px 2px rgb(139, 0, 0), 0px 0px 20px 4px rgb(255, 69, 0), 0px 0px 40px 6px rgb(255, 99, 71)",
+  }}
+>
+  Résumé
+</a>
+
         </div>
 
         {/* Mobile Menu Icon */}
