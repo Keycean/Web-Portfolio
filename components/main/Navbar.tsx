@@ -31,7 +31,7 @@ const Navbar = () => {
             Contact
           </a>
      <a
-  href="/RESUME.pdf" // Update with your PDF file path
+  href="/Resume.pdf" // Update with your PDF file path
   target="_blank"
   rel="noopener noreferrer"
   className="py-1 px-6 rounded-lg bg-[#8B0000] text-white font-medium transition-transform duration-300 transform hover:scale-105"
@@ -89,7 +89,7 @@ const Navbar = () => {
           >
             Contact
           </a>
-          <a href="#resume" className="py-2 px-6 rounded-lg bg-[#FFFF] text-white font-medium transition-transform duration-300 transform hover:scale-105"
+          <a href="Resume.pdf" target="_blank" className="py-2 px-6 rounded-lg bg-[#FFFF] text-white font-medium transition-transform duration-300 transform hover:scale-105"
            style={{ boxShadow: "0px 2px 2px 2px rgb(163,98,250), 0px 0px 20px 4px rgb(103,52,232), 0px 0px 40px 6px rgb(63,32,143)", }} > Résumé </a>
         </div>
       )}
